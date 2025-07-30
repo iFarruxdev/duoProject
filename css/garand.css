@@ -58,6 +58,9 @@ nav .box .lobo h1 {
   color: white;
   font-weight: 300;
 }
+.textichidagisoz h1 span {
+    color: #989898;
+  }
 .lobo2 {
   width: 250px;
 }
