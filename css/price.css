@@ -131,6 +131,20 @@
   main .fullInfo {
     width: 100%;
     height: 1230px;
+    position: relative;
+  }
+  main .fullInfo>img{
+    position: absolute;
+    width: 150px;
+    left: -200px;
+    bottom: -370px;
+  }
+  main .fullInfo .firstImg{
+    position: absolute;
+    width: 150px;
+    left: 1191px;
+    rotate: 180deg;
+    bottom: -780px;
   }
   main .fullInfo nav span {
     color: #989898;
@@ -677,6 +691,18 @@
   .clearAnons {
     width: 100%;
     height: 2330px;
+    position: relative;
+  }
+  .clearAnons>img{
+    position: absolute;
+    top: -730px;
+    width: 170px;
+  }
+  .clearAnons .firstStar{
+    position: absolute;
+    top: -1330px;
+    width: 170px;
+    right: 0;
   }
   .clearAnons .anons {
     width: 100%;
