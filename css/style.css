@@ -263,11 +263,11 @@
   height: 1445px;
   position: relative;
 }
-.salomteglar .priceOne{
+.salomteglar .priceOne {
   width: 185px;
   height: 185px;
   border-radius: 50%;
-  background-color: #5F24A8;
+  background-color: #5f24a8;
   position: absolute;
   color: white;
   display: flex;
@@ -278,15 +278,15 @@
   top: 350px;
   left: 260px;
 }
-.salomteglar .priceOne > h1{
+.salomteglar .priceOne > h1 {
   color: white;
   font-size: 45px;
 }
-.salomteglar .priceTwo{
+.salomteglar .priceTwo {
   width: 185px;
   height: 185px;
   border-radius: 50%;
-  background-color: #5F24A8;
+  background-color: #5f24a8;
   position: absolute;
   color: white;
   display: flex;
@@ -297,7 +297,7 @@
   top: 350px;
   left: 890px;
 }
-.salomteglar .priceTwo > h1{
+.salomteglar .priceTwo > h1 {
   color: white;
   font-size: 45px;
 }
@@ -687,7 +687,8 @@
 .ular {
   width: 520px;
   height: 100px;
-  border-radius: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
   background: linear-gradient(to right, #5f24a8, #05d2ff);
   display: flex;
   align-items: center;
@@ -1375,7 +1376,7 @@ footer .endFoot button {
     align-items: center;
     justify-content: center;
     border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;  
+    border-bottom-left-radius: 20px;
     width: 860px;
     height: 81px;
     background-color: #ffffff;
@@ -1531,14 +1532,14 @@ footer .endFoot button {
     width: 800px;
     height: 1445px;
   }
-  .salomteglar .priceOne{
+  .salomteglar .priceOne {
     width: 160px;
     height: 160px;
     top: 280px;
     position: absolute;
     left: 200px;
   }
-  .salomteglar .priceTwo{
+  .salomteglar .priceTwo {
     width: 160px;
     height: 160px;
     top: 280px;
@@ -1608,7 +1609,7 @@ footer .endFoot button {
     border-radius: 50%;
     border: 10px solid #4c1a8b6b;
   }
-  .aylana2 > img{
+  .aylana2 > img {
     width: 200px;
   }
   .textlar {
@@ -1635,6 +1636,7 @@ footer .endFoot button {
     border-radius: 15px;
     width: 900px;
     height: 698px;
+    border: 1px solid black;
   }
   .orabtur {
     background-color: #e4f9ffad;
@@ -1642,7 +1644,7 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 850px;
     height: 100px;
     border: 1px solid #a5a5a5;
     border-top-left-radius: 15px;
@@ -1650,20 +1652,24 @@ footer .endFoot button {
   }
   .orabtur h1 {
     color: #000;
-    font-size: 19px;
+    font-size: 18px;
     border-right: 2px solid #616161;
     padding: 0px 41px;
   }
   .orabtur h2 {
     margin-bottom: 16px;
     color: #000;
-    font-size: 19px;
+    text-decoration: none;
+    font-size: 23px;
     border-right: 2px solid #616161;
-    padding: 0px 41px;
+    padding: 0px 10px;
+    padding-right: 70px;
+    text-align: center;
+    margin-right: 0px !important;
   }
   .orabtur h2 span {
     color: #ff5c00;
-    font-size: 28px;
+    font-size: 23px;
   }
   .buttonsan {
     font-size: 16px;
@@ -1671,8 +1677,8 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 60px;
+    width: 240px;
+    height: 50px;
     background-color: #00bb34;
     border-radius: 13px;
     cursor: pointer;
@@ -1689,20 +1695,24 @@ footer .endFoot button {
   }
   .o h1 {
     color: #000;
-    font-size: 19px;
+    font-size: 18px;
     border-right: 2px solid #616161;
     padding: 0px 41px;
   }
   .o h2 {
     margin-bottom: 16px;
     color: #000;
-    font-size: 19px;
+    text-decoration: none;
+    font-size: 23px;
     border-right: 2px solid #616161;
-    padding: 0px 41px;
+    padding: 0px 10px;
+    padding-right: 70px;
+    text-align: center;
+    margin-right: 0px !important;
   }
   .o h2 span {
     color: #ff5c00;
-    font-size: 28px;
+    font-size: 23px;
   }
   .buttonsan2 {
     font-size: 16px;
@@ -1710,8 +1720,8 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 60px;
+    width: 240px;
+    height: 50px;
     background-color: #00bb34;
     border-radius: 13px;
     cursor: pointer;
@@ -1730,20 +1740,24 @@ footer .endFoot button {
   }
   .o2 h1 {
     color: #000;
-    font-size: 19px;
+    font-size: 18px;
     border-right: 2px solid #616161;
     padding: 0px 41px;
   }
   .o2 h2 {
     margin-bottom: 16px;
     color: #000;
-    font-size: 19px;
+    text-decoration: none;
+    font-size: 23px;
     border-right: 2px solid #616161;
-    padding: 0px 41px;
+    padding: 0px 10px;
+    padding-right: 70px;
+    text-align: center;
+    margin-right: 0px !important;
   }
   .o2 h2 span {
     color: #ff5c00;
-    font-size: 28px;
+    font-size: 23px;
   }
   .buttonsan3 {
     font-size: 16px;
@@ -1751,8 +1765,8 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 60px;
+    width: 240px;
+    height: 50px;
     background-color: #00bb34;
     border-radius: 13px;
     cursor: pointer;
@@ -1769,20 +1783,24 @@ footer .endFoot button {
   }
   .o3 h1 {
     color: #000;
-    font-size: 19px;
+    font-size: 18px;
     border-right: 2px solid #616161;
     padding: 0px 41px;
   }
   .o3 h2 {
     margin-bottom: 16px;
     color: #000;
-    font-size: 19px;
+    text-decoration: none;
+    font-size: 23px;
     border-right: 2px solid #616161;
-    padding: 0px 41px;
+    padding: 0px 10px;
+    padding-right: 70px;
+    text-align: center;
+    margin-right: 0px !important;
   }
   .o3 h2 span {
     color: #ff5c00;
-    font-size: 28px;
+    font-size: 23px;
   }
   .buttonsan4 {
     font-size: 16px;
@@ -1790,8 +1808,8 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 60px;
+    width: 240px;
+    height: 50px;
     background-color: #00bb34;
     border-radius: 13px;
     cursor: pointer;
@@ -1809,20 +1827,24 @@ footer .endFoot button {
   }
   .o4 h1 {
     color: #000;
-    font-size: 19px;
+    font-size: 18px;
     border-right: 2px solid #616161;
     padding: 0px 41px;
   }
   .o4 h2 {
     margin-bottom: 16px;
     color: #000;
-    font-size: 19px;
+    text-decoration: none;
+    font-size: 23px;
     border-right: 2px solid #616161;
-    padding: 0px 41px;
+    padding: 0px 10px;
+    padding-right: 70px;
+    text-align: center;
+    margin-right: 0px !important;
   }
   .o4 h2 span {
     color: #ff5c00;
-    font-size: 28px;
+    font-size: 23px;
   }
   .buttonsan5 {
     font-size: 16px;
@@ -1830,8 +1852,8 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 60px;
+    width: 240px;
+    height: 50px;
     background-color: #00bb34;
     border-radius: 13px;
     cursor: pointer;
@@ -1848,20 +1870,24 @@ footer .endFoot button {
   }
   .o5 h1 {
     color: #000;
-    font-size: 19px;
+    font-size: 18px;
     border-right: 2px solid #616161;
     padding: 0px 41px;
   }
   .o5 h2 {
     margin-bottom: 16px;
     color: #000;
-    font-size: 19px;
+    text-decoration: none;
+    font-size: 23px;
     border-right: 2px solid #616161;
-    padding: 0px 41px;
+    padding: 0px 10px;
+    padding-right: 70px;
+    text-align: center;
+    margin-right: 0px !important;
   }
   .o5 h2 span {
     color: #ff5c00;
-    font-size: 28px;
+    font-size: 23px;
   }
   .buttonsan6 {
     font-size: 16px;
@@ -1869,8 +1895,8 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 60px;
+    width: 240px;
+    height: 50px;
     background-color: #00bb34;
     border-radius: 13px;
     cursor: pointer;
@@ -1883,15 +1909,19 @@ footer .endFoot button {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 97px;
     border: 1px solid #a5a5a5;
     border-bottom-left-radius: 15px;
+    padding-left: 10px;
     border-bottom-right-radius: 15px;
   }
   .lobo6 h1 {
     color: #000;
     font-size: 20px;
-    margin-right: 390px;
+    margin-right: 300px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-overflow: 15px;
   }
   .imgniorabtur {
     position: absolute;
@@ -1901,23 +1931,25 @@ footer .endFoot button {
     width: 300px;
   }
   .keyingibosqichdagisayt {
-    width: 100%;
-    height: 850px;
+    width: 900px;
+    height: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 350px;
+    margin-bottom: 200px;
   }
   .looks {
-    width: 1200px;
+    width: 900px;
+    margin: 0;
     height: 777px;
-    margin-left: 200px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
   }
   .ularteg {
-    width: 600px;
+    width: 700px;
     height: 777px;
   }
   .ularteg h1 {
@@ -1931,14 +1963,15 @@ footer .endFoot button {
   }
   .ular {
     width: 520px;
-    height: 100px;
-    border-radius: 20px;
+    height: 80px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
     background: linear-gradient(to right, #5f24a8, #05d2ff);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 70px;
-    margin-top: 32px;
+    margin-top: 52px;
   }
   .ular h1 {
     color: white;
@@ -1956,19 +1989,16 @@ footer .endFoot button {
     position: absolute;
     z-index: 1;
     background-color: white;
-    margin-top: 24px;
+    margin-top: 28px;
   }
   .imgni img {
-    width: 600px;
-    margin-top: 130px;
-  }
-  clearAnons {
-    width: 100%;
-    height: 2000px;
+    width: 700px;
+    margin-top: 150px;
+    margin-bottom: 100px;
   }
   .clearAnons .anons {
-    width: 100%;
-    height: 1000px;
+    width: 900px;
+    height: 1160px;
     background: url("../images/main-block.png");
     background-size: cover;
     position: relative;
@@ -2001,19 +2031,22 @@ footer .endFoot button {
   }
   .clearAnons .anons .market {
     width: 1000px;
-    height: 400px;
-    margin: 0px auto;
+    height: 250px;
+    margin: 0px auto; 
     margin-top: 50px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    flex-direction: column; 
   }
   .clearAnons .anons .market .phone {
-    width: 440px;
+    width: 300px;
     height: 400px;
     display: flex;
     flex-direction: column;
     gap: 46px;
+    margin-right: 500px;
+    position: relative;
+    left: 30px;
   }
   .clearAnons .anons .market .phone .lists {
     display: flex;
@@ -2035,11 +2068,16 @@ footer .endFoot button {
   .clearAnons .anons .market .phone .lists h2 {
     font-size: 20px;
   }
+  .clearAnons .anons .market .phone .numbersPhone{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+  }
   .clearAnons .anons .market .phone .numbersPhone p {
     color: white;
     font-size: 22px;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 110px;
   }
   .clearAnons .anons .market .phone .numbersPhone .number {
     width: 380px;
@@ -2052,10 +2090,12 @@ footer .endFoot button {
     font-size: 34px;
   }
   .clearAnons .anons .market .remont {
-    width: 470px;
-    height: 400px;
+    width: 440px;
+    height: 490px;
     border-radius: 20px;
     background-color: white;
+    margin-top: 70px;
+    margin-left: 10px;
     z-index: 20;
   }
   .clearAnons .anons .market .remont nav {
@@ -2111,6 +2151,7 @@ footer .endFoot button {
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .clearAnons .anons .leftAnons {
     position: absolute;
@@ -2125,7 +2166,7 @@ footer .endFoot button {
     top: 300px;
   }
   .anonsBuy {
-    width: 100%;
+    width: 900px;
     height: 900px;
     background: url("../images/optimize\ 1.png");
     background-size: cover;
@@ -2142,13 +2183,13 @@ footer .endFoot button {
     font-size: 17px;
     font-weight: 600;
     margin-top: 130px;
-    margin-left: 600px;
+    margin-left: 300px;
   }
   .anonsBuy .info {
     width: 500px;
     height: 555px;
-    margin-left: 260px;
-    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
   }
   .anonsBuy .info > h1 {
     font-size: 22px;
@@ -2223,7 +2264,7 @@ footer .endFoot button {
   }
 
   .swiiper {
-    width: 100%;
+    width: 900px;
     height: 650px;
     position: relative;
   }
@@ -2231,13 +2272,13 @@ footer .endFoot button {
     margin-top: 40px;
     width: 700px;
     height: 130px;
-    margin-left: 170px;
+    margin-left: 60px;
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
   .swiiper .cards {
-    width: 1180px;
+    width: 900px;
     height: 400px;
     z-index: 20;
     margin-left: 170px;
@@ -2254,9 +2295,18 @@ footer .endFoot button {
     box-shadow: 0px 0px 10px 1px rgb(204, 204, 204);
     padding: 20px 30px;
   }
+  .swiiper .cards .card:nth-child(1) {
+    position: absolute;
+    left: 50px;
+  }
   .swiiper .cards .card:nth-child(2) {
     scale: 1.05;
+    margin-left: 60px;
     box-shadow: 0px 0px 15px 1px rgb(172, 171, 171);
+  }
+  .swiiper .cards .card:nth-child(3) {
+    scale: 1.05;
+    display: none;
   }
   .swiiper .cards .card .users {
     display: flex;
@@ -2298,6 +2348,7 @@ footer .endFoot button {
     transition: 0.2s;
     position: absolute;
     left: 30px;
+    display: none;
     top: 300px;
   }
   .swiiper .bloc {
@@ -2307,6 +2358,7 @@ footer .endFoot button {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
     color: white;
     cursor: pointer;
     transition: 0.2s;
@@ -2326,7 +2378,7 @@ footer .endFoot button {
     height: 50px;
     display: flex;
     align-items: center;
-    transform: translateX(660px);
+    transform: translateX(330px);
     justify-content: space-between;
     margin-top: 30px;
   }
@@ -2434,11 +2486,12 @@ footer .endFoot button {
   }
 
   footer {
-    width: 100%;
-    height: 400px;
-    padding: 55px 70px;
+    width: 900px;
+    height: 500px;
+    padding: 55px 50px;
     color: white;
     background-color: black;
+    position: relative;
   }
   footer .header {
     width: 100%;
@@ -2463,13 +2516,17 @@ footer .endFoot button {
     font-size: 18px;
   }
   footer .navbar_list {
+    width: 840px !important;
+    height: 70px;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
+    position: absolute;
+    top: 270px;
   }
   footer .navbar_list a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     color: white;
   }
   footer .main {
@@ -2481,23 +2538,30 @@ footer .endFoot button {
     gap: 20px;
   }
   footer .footerEnd {
-    width: 100%;
+    width: 850px;
     height: 80px;
     margin-top: 30px;
     display: flex;
+    position: absolute;
+    gap: 1px;
+    top: 350px;
     align-items: start;
     justify-content: space-between;
     color: #ffffff;
   }
+  footer .footerEnd .pending{
+    display: none;
+  }
   footer .footerEnd .start {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
   }
   footer .endFoot {
     display: flex;
     gap: 15px;
     align-items: center;
+    margin-right: 100px;
   }
   footer .endFoot button {
     padding: 14px 20px;
